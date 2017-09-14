@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: kafka-zk
-        image: digitalwonderland/zookeeper
+        image: registry.saas.hand-china.com/scdf/zookeeper:latest
         ports:
         - containerPort: 2181
         env:
