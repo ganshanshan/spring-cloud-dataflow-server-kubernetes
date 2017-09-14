@@ -12,7 +12,7 @@ spec:
         app: rabbitmq
     spec:
       containers:
-      - image: rabbitmq:3.6.10
+      - image: registry.saas.hand-china.com/scdf/rabbitmq:3.6.10
         name: rabbitmq
         ports:
         - containerPort: 5672
