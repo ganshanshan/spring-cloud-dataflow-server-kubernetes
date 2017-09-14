@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: metrics
-        image: springcloud/metrics-collector-kafka-10:1.0.0.RELEASE
+        image: registry.saas.hand-china.com/scdf/metrics-collector-kafka-10:1.0.0.RELEASE
         imagePullPolicy: Always
         ports:
         - containerPort: 80
